@@ -1,8 +1,8 @@
-# Linear Regression with Torch
+# Linear Regression with Torch (Boston Dataset)
 
 Toy example of linear regression model made with Torch. Three main components of the model are:
- - **nn.Linear** - linear layer of neural network that performs (mx + b) operation
- - **nn.MSELoss** - Mean Squared Loss function
+ - **torch.nn.Linear** - linear layer of neural network that performs (mx + b) operation
+ - **torch.nn.MSELoss** - Mean Squared Loss function
  - **torch.optim.SGD** - Stochastic Gradient Descend
 
 
@@ -224,8 +224,3 @@ mean_squared_error(y, y_pred)
     0.011920771594821645
 
 
-
-
-```python
-m = nn.Linear(1, 1)
-```
